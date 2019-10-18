@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Container} from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Container} from 'reactstrap';
 
 class Signin extends Component {
   render() {

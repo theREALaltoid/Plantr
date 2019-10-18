@@ -1,54 +1,36 @@
-
-import React, {Component} from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavLink,
-    NavItem,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
-import logo from '../img/logo.png'
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  NavLink
+} from 'reactstrap';
+import '../css/navbar.min.css'
 
-import '../css/navbar.css'
+const Navigation = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-class Navigation extends Component {
-    constructor(props) {
-      super(props);
+  const toggle = () => setIsOpen(!isOpen);
+  return (<Navbar expand="sm">
 
-      this.toggle = this.toggle.bind(this);
-      this.state = {
-        isOpen: false
-      };
-    }
-    toggle() {
-      this.setState({
-        isOpen: !this.state.isOpen
-      });
-    }
-    render() {
-      return (
-        <div>
-          <Navbar  expand="md">
+    <NavbarToggler className="navbar-dark" onClick={toggle}/>
+    <div className="col-md-six mx-auto">
+      <Collapse isOpen={isOpen} navbar="navbar" className="navbar-dark">
+        <Nav >
+          <NavItem >
+            <NavLink tag={Link} to="/signin">Sign In/Sign Up</NavLink>
+          </NavItem>
+          <NavItem >
+            <NavLink tag={Link} to="/aboutus">About</NavLink>
+          </NavItem>
+        </Nav>
 
-            <NavbarBrand className="NavbarBrand" href="/"><img src={logo} alt=" "></img> Plantr</NavbarBrand>
+      </Collapse>
+    </div>
+  </Navbar>);
+}
 
-
-              <Nav className="ml-auto" navbar>
-                  <NavLink className="navlink" tag={Link} to="/signin">Sign In/join</NavLink>
-              <NavLink  className="navlink" tag={Link} to="/products">Search</NavLink>
-                <NavLink   className="navlink" tag={Link} to="/aboutus">About Us</NavLink>
-
-              </Nav>
-
-          </Navbar>
-        </div>
-      );
-    }
-  }
-export default Navigation
+export default Navigation;
