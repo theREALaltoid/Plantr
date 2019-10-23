@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Form, FormGroup, Label, Input, Container } from "reactstrap";
 
+import { Link } from "react-router-dom";
 import "../css/form.min.css";
 
 class Contacts extends React.PureComponent {
@@ -33,6 +34,9 @@ class Contacts extends React.PureComponent {
             </FormGroup>
           </div>
         </Form>
+        <p>
+          Or <Link to="/signup">Register</Link>
+        </p>
       </Container>
     );
   }
