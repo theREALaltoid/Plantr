@@ -45,9 +45,7 @@ class Home extends React.PureComponent {
             <Row>
               <Col md="6">
                 <img
-                  src={
-                    "https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/screenshot.png"
-                  }
+                  src="https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/screenshot.png"
                   alt="Smiley face"
                 />
               </Col>

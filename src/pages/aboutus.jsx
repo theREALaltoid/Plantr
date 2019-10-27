@@ -9,10 +9,8 @@ class Products extends React.PureComponent {
           <Row className="aboutUs">
             <Col md="6">
               <img
-                src={
-                  "https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutUs.jpg"
-                }
-                alt="Smiley face"
+                src="https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutUs.jpg"
+                alt="Smiley "
               />
             </Col>
             <Col md="6">
@@ -28,9 +26,7 @@ class Products extends React.PureComponent {
           <Row className="aboutUs">
             <Col md="6">
               <img
-                src={
-                  "https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutustwo.jpg"
-                }
+                src="https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutustwo.jpg"
                 alt="Smiley face"
               />
             </Col>
