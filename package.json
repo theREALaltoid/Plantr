@@ -18,10 +18,12 @@
     "reactstrap": "^8.1.1"
   },
   "scripts": {
-    "start": "parcel index.html -p 3300",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-minify --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +47,7 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "shx": "^0.3.2"
   }
 }
