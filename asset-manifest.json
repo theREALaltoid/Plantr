@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Plantr/static/css/main.e1184a9e.chunk.css",
+    "main.js": "/Plantr/static/js/main.85d20ea7.chunk.js",
+    "main.js.map": "/Plantr/static/js/main.85d20ea7.chunk.js.map",
+    "runtime-main.js": "/Plantr/static/js/runtime-main.1e7bb1f8.js",
+    "runtime-main.js.map": "/Plantr/static/js/runtime-main.1e7bb1f8.js.map",
+    "static/css/2.fc7fbc74.chunk.css": "/Plantr/static/css/2.fc7fbc74.chunk.css",
+    "static/js/2.e30d3e40.chunk.js": "/Plantr/static/js/2.e30d3e40.chunk.js",
+    "static/js/2.e30d3e40.chunk.js.map": "/Plantr/static/js/2.e30d3e40.chunk.js.map",
+    "index.html": "/Plantr/index.html",
+    "precache-manifest.1509dd1c005124c5c4955174748dd7b0.js": "/Plantr/precache-manifest.1509dd1c005124c5c4955174748dd7b0.js",
+    "service-worker.js": "/Plantr/service-worker.js",
+    "static/css/2.fc7fbc74.chunk.css.map": "/Plantr/static/css/2.fc7fbc74.chunk.css.map",
+    "static/css/main.e1184a9e.chunk.css.map": "/Plantr/static/css/main.e1184a9e.chunk.css.map",
+    "static/media/aboutUs.jpg": "/Plantr/static/media/aboutUs.c65bc7fc.jpg",
+    "static/media/aboutustwo.jpg": "/Plantr/static/media/aboutustwo.056d84a7.jpg",
+    "static/media/font-awesome.min.css": "/Plantr/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/generalStyle.min.css": "/Plantr/static/media/homepage.d53336e8.jpg",
+    "static/media/screenshot.png": "/Plantr/static/media/screenshot.c8a2fc0b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e7bb1f8.js",
+    "static/css/2.fc7fbc74.chunk.css",
+    "static/js/2.e30d3e40.chunk.js",
+    "static/css/main.e1184a9e.chunk.css",
+    "static/js/main.85d20ea7.chunk.js"
+  ]
+}
