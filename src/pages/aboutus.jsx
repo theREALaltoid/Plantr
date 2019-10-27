@@ -8,7 +8,12 @@ class Products extends React.PureComponent {
         <Container>
           <Row className="aboutUs">
             <Col md="6">
-              <img src={require("../img/aboutUs.jpg")} alt="Smiley face" />
+              <img
+                src={
+                  "https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutUs.jpg"
+                }
+                alt="Smiley face"
+              />
             </Col>
             <Col md="6">
               <h1>Why Does Plantr Exist?</h1>
@@ -22,7 +27,12 @@ class Products extends React.PureComponent {
           </Row>
           <Row className="aboutUs">
             <Col md="6">
-              <img src={require("../img/aboutustwo.jpg")} alt="Smiley face" />
+              <img
+                src={
+                  "https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/aboutustwo.jpg"
+                }
+                alt="Smiley face"
+              />
             </Col>
             <Col md="6">
               <h1>What Does Plantr Do?</h1>

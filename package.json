@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build ./src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "rm -rf node_modules/gh-pages/.cache",
     "build": "parcel build index.html --public-url ./"
   },
   "eslintConfig": {
@@ -45,8 +46,6 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "shx": "^0.3.2",
-    "gh-pages": "^1.2.0"
+    "babel-preset-react": "^6.24.1"
   }
 }
