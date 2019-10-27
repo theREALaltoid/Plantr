@@ -20,8 +20,9 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "deploy": "gh-pages -d dist",
     "predeploy": "rm -rf node_modules/gh-pages/.cache",
+    "prebuild": "rm -rf dist",
+    "deploy": "gh-pages -d dist",
     "build": "parcel build index.html --public-url ./"
   },
   "eslintConfig": {
@@ -42,6 +43,7 @@
   "main": "index.js",
   "repository": "https://github.com/theREALaltoid/Plantr.git",
   "license": "MIT",
+  "homepage": "https://github.com/theREALaltoid/Plantr",
   "devDependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "babel-core": "^6.26.3",

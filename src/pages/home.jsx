@@ -44,10 +44,7 @@ class Home extends React.PureComponent {
           <Container>
             <Row>
               <Col md="6">
-                <img
-                  src="https://raw.githubusercontent.com/theREALaltoid/Plantr/master/src/img/screenshot.png"
-                  alt="Smiley face"
-                />
+                <img src={require("../img/screenshot.png")} alt="Smiley face" />
               </Col>
               <Col className="homeInfo" md="6">
                 <h1>How Plantr Works:</h1>
