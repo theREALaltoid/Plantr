@@ -15,7 +15,7 @@ class Contacts extends React.PureComponent {
               type="email"
               name="email"
               id="exampleEmail"
-              placeholder="with a placeholder"
+              placeholder="email"
             />
           </FormGroup>
 
@@ -25,7 +25,7 @@ class Contacts extends React.PureComponent {
               type="password"
               name="password"
               id="examplePassword"
-              placeholder="password placeholder"
+              placeholder="password"
             />
           </FormGroup>
           <div className="signInButtonGroup">

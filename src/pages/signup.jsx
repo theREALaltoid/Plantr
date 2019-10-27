@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Form, FormGroup, Label, Input, Container } from "reactstrap";
 import "../css/signup.min.css";
-
+import { Link } from "react-router-dom";
 class Signup extends React.PureComponent {
   render() {
     return (
@@ -47,7 +47,6 @@ class Signup extends React.PureComponent {
               required="required"
             />
           </FormGroup>
-
           <div className="but">
             <Button size="lg" block>
               Submit
@@ -55,6 +54,9 @@ class Signup extends React.PureComponent {
           </div>
           <br />
           <p>All Fields Required</p>
+          <p>
+            Or <Link to="/login">Login</Link>
+          </p>
         </Form>
       </Container>
     );

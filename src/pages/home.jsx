@@ -5,6 +5,11 @@ import { faAppStore, faAndroid } from "@fortawesome/free-brands-svg-icons";
 import "../css/generalStyle.min.css";
 
 class Home extends React.PureComponent {
+  componentWillMount() {
+    alert(
+      "This is a Proof of Concept Site. No User Data will be created if you attempt to register and logins attempts will not work!!! "
+    );
+  }
   render() {
     return (
       <div>
