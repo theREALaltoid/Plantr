@@ -5,7 +5,7 @@ import {
   faTwitter,
   faReddit
 } from "@fortawesome/free-brands-svg-icons";
-import { faAppleCrate } from "@fortawesome/free-solid-svg-icons";
+
 import { Container, Row, Col } from "reactstrap";
 import "../css/navbar.min.css";
 
@@ -31,7 +31,6 @@ class PageFooter extends React.PureComponent {
               <FontAwesomeIcon icon={faReddit} size="2x" />
               <FontAwesomeIcon icon={faTwitter} size="2x" />
               <FontAwesomeIcon icon={faFacebookF} size="2x" />
-              <FontAwesomeIcon icon={faAppleCrate} size="2x" />
             </Col>
           </Row>
         </Container>

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../css/aboutUs.min.css";
+import aboutusTwo from "../img/aboutustwo.jpg";
+import aboutUs from "../img/aboutUs.jpg";
 class Products extends React.PureComponent {
   render() {
     return (
@@ -8,7 +10,7 @@ class Products extends React.PureComponent {
         <Container>
           <Row className="aboutUs">
             <Col md="6">
-              <img src={require("../img/aboutUs.jpg")} alt="Smiley " />
+              <img src={aboutUs} alt="Smiley " />
             </Col>
             <Col md="6">
               <h1>Why Does Plantr Exist?</h1>
@@ -22,7 +24,7 @@ class Products extends React.PureComponent {
           </Row>
           <Row className="aboutUs">
             <Col md="6">
-              <img src={require("../img/aboutustwo.jpg")} alt="Smiley face" />
+              <img src={aboutusTwo} alt="Smiley face" />
             </Col>
             <Col md="6">
               <h1>What Does Plantr Do?</h1>

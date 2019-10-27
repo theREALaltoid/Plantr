@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAppStore, faAndroid } from "@fortawesome/free-brands-svg-icons";
 import "../css/generalStyle.min.css";
-
+import screenshot from "../img/screenshot.png";
 class Home extends React.PureComponent {
   componentWillMount() {
     alert(
@@ -44,7 +44,7 @@ class Home extends React.PureComponent {
           <Container>
             <Row>
               <Col md="6">
-                <img src={require("../img/screenshot.png")} alt="Smiley face" />
+                <img src={screenshot} alt="Smiley face" />
               </Col>
               <Col className="homeInfo" md="6">
                 <h1>How Plantr Works:</h1>

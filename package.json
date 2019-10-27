@@ -1,5 +1,6 @@
 {
   "name": "plantr",
+  "homepage": "https://therealaltoid.github.io/Plantr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,11 +20,11 @@
     "reactstrap": "^8.1.1"
   },
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel watch index.html",
     "predeploy": "rm -rf node_modules/gh-pages/.cache",
     "prebuild": "rm -rf dist",
-    "deploy": "gh-pages -d dist",
-    "build": "parcel build index.html --public-url ./"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,7 +44,6 @@
   "main": "index.js",
   "repository": "https://github.com/theREALaltoid/Plantr.git",
   "license": "MIT",
-  "homepage": "https://github.com/theREALaltoid/Plantr",
   "devDependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "babel-core": "^6.26.3",
